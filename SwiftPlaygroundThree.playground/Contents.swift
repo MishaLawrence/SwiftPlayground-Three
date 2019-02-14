@@ -28,6 +28,18 @@ print(fruitNames[1])
 print(fruitNames[0])
 
 //Assignment #4
+var myNumbers: [Int] = [1,2,3,4,5]
+print(myNumbers)
+for number in myNumbers
+{
+    print("My favorite number is " , number)
+}
+print(myNumbers[4])
+//remove via index
+myNumbers: [Double] = [1,2,3,4,5]
+let removed = measurements.remove(at: 2)
+print(measurements)
+
 
 
 
