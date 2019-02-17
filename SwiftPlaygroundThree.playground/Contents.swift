@@ -36,9 +36,10 @@ for number in myNumbers
 }
 print(myNumbers[4])
 //remove via index
-myNumbers: [Double] = [1,2,3,4,5]
-let removed = measurements.remove(at: 2)
-print(measurements)
+myNumbers: [Double] = [1, 2, 3, 4, 5]
+let removed = myNumbers.remove(at: 2)
+print(myNumbers)
+
 
 
 
